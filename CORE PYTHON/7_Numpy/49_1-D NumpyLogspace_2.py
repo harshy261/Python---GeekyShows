@@ -16,3 +16,9 @@ print(n)
 for i in range(n):
     # print(stu_roll[i])
     print('index', i, "=", a[i])
+    
+
+
+
+
+
