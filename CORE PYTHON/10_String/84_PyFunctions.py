@@ -115,22 +115,33 @@
 # print(str2)
 
 
-# # join()     -- adds certain element from string
-name = ('Hello', 'my', 'name', 'is', 'Harsh')
-str1 = '_'.join(name)
-print(name)
-print(str1)
+# # # join()     -- adds certain element from string
+# name = ('Hello', 'my', 'name', 'is', 'Harsh')
+# str1 = '_'.join(name)
+# print(name)
+# print(str1)
 
-name2 = ('Hello', 'my', 'name', 'is', 'Harsh')
-str2 = ' '.join(name2)
-print(name2)
-print(str2)
-
-
+# name2 = ('Hello', 'my', 'name', 'is', 'Harsh')
+# str2 = ' '.join(name2)
+# print(name2)
+# print(str2)
 
 
 
+# # startswith()  -- check if string start with that substring or not
+# name = "Hi , My name is Harsh yadav"
+# print(name.startswith('Hi'))
+# print(name.startswith('name'))
+# print()
+# print(name.endswith('yadav'))
+# print(name.endswith('is'))
 
 
 
 
+
+
+
+
+
+# endswith()  -- check if string ends with that substring or not
