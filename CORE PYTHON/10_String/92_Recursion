@@ -1,0 +1,37 @@
+# RECURSION
+
+
+def MyFun():
+    print("Harsh Yadav")
+    MyFun()
+
+MyFun()
+
+
+
+
+
+
+
+
+i = 0
+def MyFun():
+    global i
+    i = i+1
+    print("My Function",i)
+    MyFun()
+
+MyFun()
+
+
+
+
+import sys
+print(sys.getrecursionlimit())
+
+sys.setrecursionlimit(4000)
+print(sys.getrecursionlimit())
+
+
+
+
