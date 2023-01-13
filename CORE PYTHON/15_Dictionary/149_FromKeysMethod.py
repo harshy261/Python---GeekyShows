@@ -4,6 +4,12 @@
 
 key = (100, 101, 102, 103)
 value = 'Harsh'
+d = dict.fromkeys(key, value)
+print(d)
+
+
+
+
 
 
 
