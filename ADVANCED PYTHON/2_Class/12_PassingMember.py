@@ -23,13 +23,3 @@ stu = Student('Rahul', 101)
 User.show(stu)
 
 
-class User:
-    @staticmethod
-    def show(s):
-        print("User Name:", s.name)
-        print("User Roll:", s.roll)
-
-# Creating object of Student Class
-stu = Student('Rahul', 101)
-User.show(stu)
-
